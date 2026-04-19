@@ -11,5 +11,10 @@ st.sidebar.title("Navigasi")
 menu = st.sidebar.radio("Pilih Halaman", ["Home", "Halaman data",])
 if menu == "Home":
     judul()
+    nama()
 elif menu == "Halaman data":
-    show_data()    
+    judul()
+    show_data()
+    nama()    
+
+# Selesai: Dashboard Covid-19 berhasil diimplementasikan dengan navigasi interaktif.    
